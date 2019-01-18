@@ -1,0 +1,19 @@
+[class|="friendsTable"] {
+	margin-top: 0;
+}
+
+.theme-dark {
+	[class|="friendsTable"],
+	[class|="container"] [class*="headerBar"],
+	[class|="titleWrapper"] > div {
+		background-color: $chat-background-dark !important;
+	}
+}
+
+.theme-light {
+	[class|="friendsTable"],
+	[class|="container"] [class*="headerBar"],
+	[class|="titleWrapper"] > div {
+		background-color: $chat-background-light !important;
+	}
+}

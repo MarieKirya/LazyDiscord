@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Handles Main styling
+ */
+
+.theme-light {
+	[class*="chat-"] [class*="content-"] {
+		background-color: $chat-background-light;
+	}
+}
+
+.theme-dark {
+	[class*="chat-"] [class*="content-"] {
+		background-color: $chat-background-dark;
+	}
+}

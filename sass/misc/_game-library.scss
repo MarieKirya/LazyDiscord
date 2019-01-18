@@ -1,0 +1,13 @@
+.theme-dark {
+	[class|="gameLibrary"],
+	[class|="gameLibrary"] [class*="headerBar"] {
+		background-color: $chat-background-dark !important;
+	}
+}
+
+.theme-light {
+	[class|="gameLibrary"],
+	[class|="gameLibrary"] [class*="headerBar"] {
+		background-color: $chat-background-light !important;
+	}
+}

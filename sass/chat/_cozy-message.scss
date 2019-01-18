@@ -1,0 +1,75 @@
+/**
+ * @file
+ * Handles "Cozy" Message styling
+ */ 
+
+// Root message alignment
+[class|="containerCozyBounded"] {
+	// Remove bad over padding
+	padding-bottom: 0;
+	padding-top: 0;
+	margin: 0;
+
+	[class|="messageCozy"] {
+		padding-top: 2px;
+		padding-bottom: 6px;
+		margin: 0;
+
+		// Avatars and header spacing
+		[class|="headerCozy"] {
+			padding-top: 6px;
+
+			h2 [class|="username"] {
+				font-weight: 700 !important;
+			}
+			
+			& > div {
+				margin-right: 10px;
+
+				& > div {
+					border-radius: 5px;
+				}
+			}
+		}
+
+		// Non-header content spacing
+		[class|="contentCozy"] {
+			margin-left: 70px;
+		}
+
+		// Center button when you hover over the messages
+		[class|="buttonContainer"] {
+			position: relative;
+			top: 2px;
+		} 
+	}
+
+	hr {
+		display: none;
+	}
+}
+
+// Last message needs more blank space
+[class*="messages-"] > div:last-of-type {
+	margin-bottom: 10px;
+}
+
+.theme-light {
+	[class|="messageCozy"]:hover {
+		background-color: $message-hover-light;
+	}
+
+	[class|="markup"] {
+		color: $message-text-color-light !important;
+	}
+}
+
+.theme-dark {
+	[class|="messageCozy"]:hover {
+	 	background-color: $message-hover-dark;
+	}
+
+	[class|="markup"] {
+		color: $message-text-color-dark !important;
+	}
+}

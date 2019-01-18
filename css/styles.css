@@ -1,0 +1,160 @@
+/**
+ * Base for all styles
+ */
+/**
+ * @file
+ * Handles Typographical styling
+ */
+* {
+  font-family: "Lato" !important;
+  font-weight: 600;
+  font-size: 16px; }
+
+/**
+ * @file
+ * Handles Main styling
+ */
+.theme-light [class*="chat-"] [class*="content-"] {
+  background-color: inherit; }
+
+.theme-dark [class*="chat-"] [class*="content-"] {
+  background-color: #222222; }
+
+/**
+ * @file
+ * Handles "Cozy" Message styling
+ */
+[class|="containerCozyBounded"] {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0; }
+  [class|="containerCozyBounded"] [class|="messageCozy"] {
+    padding-top: 2px;
+    padding-bottom: 6px;
+    margin: 0; }
+    [class|="containerCozyBounded"] [class|="messageCozy"] [class|="headerCozy"] {
+      padding-top: 6px; }
+      [class|="containerCozyBounded"] [class|="messageCozy"] [class|="headerCozy"] h2 [class|="username"] {
+        font-weight: 700 !important; }
+      [class|="containerCozyBounded"] [class|="messageCozy"] [class|="headerCozy"] > div {
+        margin-right: 10px; }
+        [class|="containerCozyBounded"] [class|="messageCozy"] [class|="headerCozy"] > div > div {
+          border-radius: 5px; }
+    [class|="containerCozyBounded"] [class|="messageCozy"] [class|="contentCozy"] {
+      margin-left: 70px; }
+    [class|="containerCozyBounded"] [class|="messageCozy"] [class|="buttonContainer"] {
+      position: relative;
+      top: 2px; }
+  [class|="containerCozyBounded"] hr {
+    display: none; }
+
+[class*="messages-"] > div:last-of-type {
+  margin-bottom: 10px; }
+
+.theme-light [class|="messageCozy"]:hover {
+  background-color: #f8f8f8; }
+
+.theme-light [class|="markup"] {
+  color: #1d1c1d !important; }
+
+.theme-dark [class|="messageCozy"]:hover {
+  background-color: #1f1f1f; }
+
+.theme-dark [class|="markup"] {
+  color: #dcddde !important; }
+
+/**
+ * @file
+ * Handles Chat Input styling
+ */
+[class|="channelTextArea"] {
+  padding-top: 0px;
+  border: 0 !important; }
+
+.theme-dark [class*="chat-"] > div > div > form,
+.theme-dark [class|="typing"] {
+  background-color: #222222 !important; }
+
+.theme-light [class*="chat-"] > div > div > form,
+.theme-light [class|="typing"] {
+  background-color: inherit !important; }
+
+/**
+ * @file
+ * Handles Message Wrapper styling
+ */
+.theme-light [class|="messagesWrapper"] {
+  background-color: inherit; }
+
+.theme-dark [class|="messagesWrapper"] {
+  background-color: #222222; }
+
+[class|="guildsWrapper"] {
+  background-color: #171717 !important;
+  margin-top: 0 !important;
+  padding-top: 30px; }
+
+[class*="guild-"] > div {
+  margin: 5px 5px !important; }
+
+[class*="guild-"] + [class*="guild-"] {
+  margin-top: 0 !important; }
+
+[class|="guildInner"] {
+  position: relative;
+  top: 5px;
+  border-radius: 7px !important; }
+
+[class|="guildInner"] > a,
+[class|="guildInner"] > a > div {
+  width: 40px !important;
+  height: 40px !important; }
+
+[class|="channels"],
+[class|="channels"] > div:first-of-type {
+  background-color: #2D2D2D; }
+
+[class|="nameUnreadText"] {
+  font-weight: 700; }
+
+[class|="wrapperUnreadText"] > div:empty {
+  display: none; }
+
+/* Channel group */
+[class|="channels"] > div:first-of-type [class|="container"] > div:first-of-type {
+  padding-top: 10px; }
+
+[class|="channels"] {
+  width: 220px; }
+
+[class|="privateChannels"] [class|="channel"] [class|="inner"] {
+  border-radius: 5px; }
+
+[class|="friendsTable"] {
+  margin-top: 0; }
+
+.theme-dark [class|="friendsTable"],
+.theme-dark [class|="container"] [class*="headerBar"],
+.theme-dark [class|="titleWrapper"] > div {
+  background-color: #222222 !important; }
+
+.theme-light [class|="friendsTable"],
+.theme-light [class|="container"] [class*="headerBar"],
+.theme-light [class|="titleWrapper"] > div {
+  background-color: inherit !important; }
+
+.theme-dark [class|="activityFeed"],
+.theme-dark [class|="activityFeed"] [class*="headerBar"] {
+  background-color: #222222 !important; }
+
+.theme-light [class|="activityFeed"],
+.theme-light [class|="activityFeed"] [class*="headerBar"] {
+  background-color: inherit !important; }
+
+.theme-dark [class|="gameLibrary"],
+.theme-dark [class|="gameLibrary"] [class*="headerBar"] {
+  background-color: #222222 !important; }
+
+.theme-light [class|="gameLibrary"],
+.theme-light [class|="gameLibrary"] [class*="headerBar"] {
+  background-color: inherit !important; }

@@ -1,0 +1,25 @@
+[class|="guildsWrapper"] {
+	background-color: $sidebar-servers-background-color !important;
+	margin-top: 0!important;
+	padding-top: 30px;
+}
+
+[class*="guild-"] > div{
+	margin: 5px 5px !important;
+}
+
+[class*="guild-"] + [class*="guild-"]  {
+	margin-top: 0 !important;
+}
+
+[class|="guildInner"] {
+	position: relative;
+	top: 5px;
+	border-radius: 7px !important;
+}
+
+[class|="guildInner"] > a,
+[class|="guildInner"] > a > div {
+	width: 40px !important;
+	height: 40px !important;
+}

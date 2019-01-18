@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Handles Message Wrapper styling
+ */
+
+.theme-light {
+	[class|="messagesWrapper"] {
+		background-color: $chat-background-light;
+	}
+}
+
+.theme-dark {
+	[class|="messagesWrapper"] {
+		background-color: $chat-background-dark;
+	}
+}

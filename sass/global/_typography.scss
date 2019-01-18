@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Handles Typographical styling
+ */
+
+// Lato must be installed on the computer to make this work.
+* {
+	font-family: "Lato" !important;
+	font-weight: 600;
+	font-size: 16px;
+}

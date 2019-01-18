@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Handles Chat Input styling
+ */
+
+[class|="channelTextArea"] {
+	padding-top: 0px;
+	border: 0 !important;
+}
+
+.theme-dark {
+	[class*="chat-"] > div > div > form,
+	[class|="typing"] {
+	 	background-color: $chat-background-dark !important;
+	}
+}
+
+.theme-light {
+	[class*="chat-"] > div > div > form,
+	[class|="typing"] {
+	 	background-color: $chat-background-light !important;
+	}
+}

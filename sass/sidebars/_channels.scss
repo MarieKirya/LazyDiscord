@@ -1,0 +1,25 @@
+[class|="channels"],
+[class|="channels"] > div:first-of-type {
+	background-color: $sidebar-primary-background-color;
+}
+
+[class|="nameUnreadText"] {
+	font-weight: 700;
+}
+
+[class|="wrapperUnreadText"] > div:empty {
+	display: none;
+}
+
+/* Channel group */
+[class|="channels"] > div:first-of-type [class|="container"] > div:first-of-type {
+	padding-top: 10px;
+} 
+
+[class|="channels"] {
+	width: 220px;
+}
+
+[class|="privateChannels"] [class|="channel"] [class|="inner"] {
+	border-radius: 5px;
+}

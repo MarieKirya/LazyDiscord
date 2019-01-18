@@ -1,0 +1,21 @@
+/**
+ * Base for all styles
+ */
+
+// Color Scheme
+@import "colorschemes/vanilla-like";
+
+// Implement new color schemes with:
+// @import "colorschemes/mynewcolorscheme";
+
+// All styling overrides
+@import "global/typography";
+@import "global/content";
+@import "chat/cozy-message";
+@import "chat/input";
+@import "chat/messages-wrapper";
+@import "sidebars/servers";
+@import "sidebars/channels";
+@import "misc/friends-table";
+@import "misc/activity-feed";
+@import "misc/game-library"

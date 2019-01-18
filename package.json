@@ -1,0 +1,9 @@
+{
+  "name": "lazy-discord",
+  "version": "0.0.1",
+  "sasslintConfig": "sass-lint.yml",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

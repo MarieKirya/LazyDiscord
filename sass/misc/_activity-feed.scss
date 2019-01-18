@@ -1,0 +1,13 @@
+.theme-dark {
+	[class|="activityFeed"],
+	[class|="activityFeed"] [class*="headerBar"] {
+		background-color: $chat-background-dark !important;
+	}
+}
+
+.theme-light {
+	[class|="activityFeed"],
+	[class|="activityFeed"] [class*="headerBar"] {
+		background-color: $chat-background-light !important;
+	}
+}
