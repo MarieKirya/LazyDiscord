@@ -14,10 +14,10 @@
  * @file
  * Handles Main styling
  */
-.theme-light [class*="chat-"] [class*="content-"] {
+.theme-light [class*="chat-"] > [class*="content-"] {
   background-color: inherit; }
 
-.theme-dark [class*="chat-"] [class*="content-"] {
+.theme-dark [class*="chat-"] > [class*="content-"] {
   background-color: #222222; }
 
 /**
@@ -75,9 +75,17 @@
 .theme-dark [class|="typing"] {
   background-color: #222222 !important; }
 
+.theme-dark [class*="chat-"] > div > div > form textarea,
+.theme-dark [class|="autocomplete"] {
+  background-color: #3a3a3a !important; }
+
 .theme-light [class*="chat-"] > div > div > form,
 .theme-light [class|="typing"] {
   background-color: inherit !important; }
+
+.theme-light [class*="chat-"] > div > div > form textarea,
+.theme-light [class|="autocomplete"] {
+  background-color: #f8f8f8 !important; }
 
 /**
  * @file
@@ -106,13 +114,21 @@
   border-radius: 7px !important; }
 
 [class|="guildInner"] > a,
-[class|="guildInner"] > a > div {
+[class|="guildInner"] > a > div,
+[class|="guildInner"] > [class*="avatar-"],
+[class|="guildInner"] > [class*="avatar-"] > a {
   width: 40px !important;
   height: 40px !important; }
 
-[class|="channels"],
-[class|="channels"] > div:first-of-type {
+[class|="channels"] {
   background-color: #2D2D2D; }
+
+[class|="channels"] header {
+  background-color: #2D2D2D; }
+
+[class|="channels"] > div:first-of-type,
+[class|="channels"] [class|="channelNotice"] {
+  background-color: #2D2D2D !important; }
 
 [class|="nameUnreadText"] {
   font-weight: 700; }
@@ -126,9 +142,24 @@
 
 [class|="channels"] {
   width: 220px; }
+  [class|="channels"] [class*="avatar"] > [class*="inner"],
+  [class|="channels"] [class|="privateChannels"] [class|="channel"] [class|="inner"] {
+    border-radius: 5px; }
 
-[class|="privateChannels"] [class|="channel"] [class|="inner"] {
-  border-radius: 5px; }
+[class*="searchBarComponent-"] {
+  background-color: #222222; }
+
+.theme-dark [class*="menu-"] {
+  background-color: #222222; }
+
+.theme-light [class*="menu-"] {
+  background-color: #f8f8f8; }
+
+.theme-dark [class*="members-"] {
+  background-color: #222222; }
+
+.theme-light [class*="members-"] {
+  background-color: inherit; }
 
 [class|="friendsTable"] {
   margin-top: 0; }

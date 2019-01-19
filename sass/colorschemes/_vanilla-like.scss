@@ -1,13 +1,20 @@
 $message-text-color-light: #1d1c1d;
 $message-hover-light: #f8f8f8;
 $chat-background-light: inherit;
+$input-background-light: #f8f8f8;
 
 $message-text-color-dark: #dcddde;
 $message-hover-dark: #1f1f1f;
 $chat-background-dark: #222222;
+$input-background-dark: #3a3a3a;
 
-$sidebar-primary-background-color: #2D2D2D;
-$sidebar-header-background-color: $sidebar-primary-background-color;
-$sidebar-footer-background-color: $sidebar-primary-background-color;
+$popout-background-dark: $chat-background-dark;
+$popout-background-light: $input-background-light;
 
-$sidebar-servers-background-color: #171717;
+$sidebar-primary-background: #2D2D2D;
+$sidebar-header-background: $sidebar-primary-background;
+$sidebar-footer-background: $sidebar-primary-background;
+
+$sidebar-input-background: $chat-background-dark;
+
+$sidebar-servers-background: #171717;

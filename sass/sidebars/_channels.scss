@@ -1,6 +1,14 @@
-[class|="channels"],
-[class|="channels"] > div:first-of-type {
-	background-color: $sidebar-primary-background-color;
+[class|="channels"] {
+	background-color: $sidebar-footer-background;
+}
+
+[class|="channels"] header {
+	background-color: $sidebar-header-background;
+}
+
+[class|="channels"] > div:first-of-type,
+[class|="channels"] [class|="channelNotice"] {
+	background-color: $sidebar-primary-background !important;
 }
 
 [class|="nameUnreadText"] {
@@ -18,8 +26,25 @@
 
 [class|="channels"] {
 	width: 220px;
+
+	[class*="avatar"] > [class*="inner"],
+	[class|="privateChannels"] [class|="channel"] [class|="inner"]  {
+		border-radius: 5px;
+	}
 }
 
-[class|="privateChannels"] [class|="channel"] [class|="inner"] {
-	border-radius: 5px;
+[class*="searchBarComponent-"] {
+	background-color: $sidebar-input-background;
+}
+
+.theme-dark {
+	[class*="menu-"]{
+		background-color: $popout-background-dark;
+	}
+}
+
+.theme-light {
+	[class*="menu-"]{
+		background-color: $popout-background-light;
+	}
 }

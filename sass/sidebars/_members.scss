@@ -1,0 +1,11 @@
+.theme-dark {
+	[class*="members-"] {
+		background-color: $chat-background-dark;
+	}
+}
+
+.theme-light {
+	[class*="members-"] {
+		background-color: $chat-background-light;
+	}
+}

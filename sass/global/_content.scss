@@ -4,13 +4,13 @@
  */
 
 .theme-light {
-	[class*="chat-"] [class*="content-"] {
+	[class*="chat-"] > [class*="content-"] {
 		background-color: $chat-background-light;
 	}
 }
 
 .theme-dark {
-	[class*="chat-"] [class*="content-"] {
+	[class*="chat-"] > [class*="content-"] {
 		background-color: $chat-background-dark;
 	}
 }

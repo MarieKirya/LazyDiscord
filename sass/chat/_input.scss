@@ -13,11 +13,21 @@
 	[class|="typing"] {
 	 	background-color: $chat-background-dark !important;
 	}
+
+	[class*="chat-"] > div > div > form textarea,
+	[class|="autocomplete"] {
+	 	background-color: $input-background-dark !important;
+	}
 }
 
 .theme-light {
 	[class*="chat-"] > div > div > form,
 	[class|="typing"] {
 	 	background-color: $chat-background-light !important;
+	}
+
+	[class*="chat-"] > div > div > form textarea,
+	[class|="autocomplete"] {
+	 	background-color: $input-background-light !important;
 	}
 }
