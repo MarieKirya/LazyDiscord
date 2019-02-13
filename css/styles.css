@@ -99,7 +99,9 @@
 
 [class|="guildsWrapper"] {
   background-color: #171717 !important;
-  margin-top: 0 !important;
+  margin-top: 0 !important; }
+
+.platform-osx [class|="guildsWrapper"] {
   padding-top: 30px; }
 
 [class*="guild-"] > div {
@@ -189,3 +191,9 @@
 .theme-light [class|="gameLibrary"],
 .theme-light [class|="gameLibrary"] [class*="headerBar"] {
   background-color: inherit !important; }
+
+.theme-dark [class|="quickswitcher"] {
+  background-color: #222222; }
+
+.theme-dark [class|="quickswitcher"] input {
+  background-color: #3a3a3a; }

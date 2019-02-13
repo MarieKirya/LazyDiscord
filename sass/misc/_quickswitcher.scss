@@ -1,0 +1,15 @@
+.theme-dark [class|="quickswitcher"] {
+	background-color: $chat-background-dark;
+}
+
+.theme-dark [class|="quickswitcher"] input {
+	background-color: $input-background-dark;
+}
+
+.theme-light [class|="quickswitcher"] {
+	background-color: $chat-background-light;
+}
+
+.theme-light [class|="quickswitcher"] input {
+	background-color: $input-background-light;
+}

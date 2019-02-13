@@ -1,6 +1,9 @@
 [class|="guildsWrapper"] {
 	background-color: $sidebar-servers-background !important;
 	margin-top: 0!important;
+}
+
+.platform-osx [class|="guildsWrapper"] {
 	padding-top: 30px;
 }
 
