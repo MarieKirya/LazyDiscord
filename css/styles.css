@@ -197,3 +197,12 @@
 
 .theme-dark [class|="quickswitcher"] input {
   background-color: #3a3a3a; }
+
+.theme-light [class|="quickswitcher"] {
+  background-color: inherit; }
+
+.theme-light [class|="quickswitcher"] input {
+  background-color: #f8f8f8; }
+
+[class*="typeWindows-"][class*="titleBar-"] {
+  background-color: #222222 !important; }

@@ -1,0 +1,4 @@
+// There's no way to specify the theme before this, so we just set the titlebar to the darkmode theme.
+[class*="typeWindows-"][class*="titleBar-"] {
+	background-color: $chat-background-dark !important;
+}
