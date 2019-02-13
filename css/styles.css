@@ -195,13 +195,15 @@
 .theme-dark [class|="quickswitcher"] {
   background-color: #222222; }
 
-.theme-dark [class|="quickswitcher"] input {
+.theme-dark [class|="quickswitcher"] input,
+.theme-dark [class|="quickswitcher"] [class|="resultFocused"] {
   background-color: #3a3a3a; }
 
 .theme-light [class|="quickswitcher"] {
   background-color: inherit; }
 
-.theme-light [class|="quickswitcher"] input {
+.theme-light [class|="quickswitcher"] input,
+.theme-light [class|="quickswitcher"] [class|="resultFocused"] {
   background-color: #f8f8f8; }
 
 [class*="typeWindows-"][class*="titleBar-"] {
