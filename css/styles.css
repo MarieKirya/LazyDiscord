@@ -224,7 +224,13 @@
 .theme-light [class*="contentRegion-"] {
   background: inherit !important; }
 
+.theme-light [class*="contentRegion-"] [class*="cardPrimary-"] {
+  background: inherit !important; }
+
 .theme-dark [class*="contentRegion-"] {
+  background: #222222 !important; }
+
+.theme-dark [class*="contentRegion-"] [class*="cardPrimary-"] {
   background: #222222 !important; }
 
 .theme-dark div[class*="radioGroup-"] > div[class*="item-"] {

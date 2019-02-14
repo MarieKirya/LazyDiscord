@@ -2,10 +2,16 @@
 	[class*="contentRegion-"] {
 		background: $chat-background-light !important;
 	}
+	[class*="contentRegion-"] [class*="cardPrimary-"] {
+		background: $chat-background-light !important;
+	}
 }
 
 .theme-dark {
 	[class*="contentRegion-"] {
+		background: $chat-background-dark !important;
+	}
+	[class*="contentRegion-"] [class*="cardPrimary-"] {
 		background: $chat-background-dark !important;
 	}
 }
