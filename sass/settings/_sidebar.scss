@@ -1,0 +1,17 @@
+.theme-light {
+	[class*="sidebarRegion-"] {
+		background: $input-background-light !important;
+	}
+	[class*="contentRegion-"] {
+		background: $chat-background-light !important;
+	}
+}
+
+.theme-dark {
+	[class*="sidebarRegion-"] {
+		background: $sidebar-primary-background !important;
+	}
+	[class*="contentRegion-"] {
+		background: $chat-background-dark !important;
+	}
+}
