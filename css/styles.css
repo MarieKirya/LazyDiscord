@@ -208,3 +208,42 @@
 
 [class*="typeWindows-"][class*="titleBar-"] {
   background-color: #222222 !important; }
+
+.theme-light [class*="sidebarRegion-"] {
+  background: #f8f8f8 !important; }
+
+.theme-light [class*="contentRegion-"] {
+  background: inherit !important; }
+
+.theme-dark [class*="sidebarRegion-"] {
+  background: #2D2D2D !important; }
+
+.theme-dark [class*="contentRegion-"] {
+  background: #222222 !important; }
+
+.theme-light [class*="contentRegion-"] {
+  background: inherit !important; }
+
+.theme-dark [class*="contentRegion-"] {
+  background: #222222 !important; }
+
+.theme-dark div[class*="radioGroup-"] > div[class*="item-"] {
+  border-color: rgba(114, 118, 125, 0.3) !important; }
+
+.theme-dark div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+  border-color: rgba(114, 118, 125, 0.3) !important; }
+
+.theme-dark div[class*="contentRegion"] div[class*="userInfoViewing-"][class*="cardPrimary-"] {
+  border-color: rgba(114, 118, 125, 0.3) !important; }
+
+.theme-light div[class*="radioGroup-"] > div[class*="item-"] {
+  border-color: rgba(185, 187, 190, 0.3) !important; }
+
+.theme-light div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+  border-color: rgba(185, 187, 190, 0.3) !important; }
+
+.theme-light div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+  border-color: rgba(185, 187, 190, 0.3) !important; }
+
+.theme-light div[class*="contentRegion"] div[class*="userInfoViewing-"][class*="cardPrimary-"] {
+  border-color: rgba(185, 187, 190, 0.3) !important; }

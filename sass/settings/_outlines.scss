@@ -1,0 +1,27 @@
+
+.theme-dark {
+	div[class*="radioGroup-"] > div[class*="item-"] {
+		border-color: $divider-dark !important;
+	}
+	div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+		border-color: $divider-dark !important;
+	}
+	div[class*="contentRegion"] div[class*="userInfoViewing-"][class*="cardPrimary-"] {
+		border-color: $divider-dark !important;
+	}
+}
+
+.theme-light {
+	div[class*="radioGroup-"] > div[class*="item-"] {
+		border-color: $divider-light !important;
+	}
+	div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+		border-color: $divider-light !important;
+	}
+	div[class*="contentRegion"] div[class*="cardPrimaryOutline-"] {
+		border-color: $divider-light !important;
+	}
+	div[class*="contentRegion"] div[class*="userInfoViewing-"][class*="cardPrimary-"] {
+		border-color: $divider-light !important;
+	}
+}

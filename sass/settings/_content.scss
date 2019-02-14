@@ -1,0 +1,11 @@
+.theme-light {
+	[class*="contentRegion-"] {
+		background: $chat-background-light !important;
+	}
+}
+
+.theme-dark {
+	[class*="contentRegion-"] {
+		background: $chat-background-dark !important;
+	}
+}
